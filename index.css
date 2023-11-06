@@ -1,0 +1,131 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #11820f;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #084c08;
+}
+
+#content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #11820f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add a little space between footer text and top of the page */
+footer p {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Style table header */
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style table header cells */
+th {
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Style adzan names */
+.adzan-name {
+    font-weight: bold;
+    color: #4285f4;
+}
+
+/* Style adzan times */
+.adzan-time {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Make header text more prominent */
+h1 {
+    font-size: 2em;
+}
+
+/* Style footer links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Add some spacing between footer links */
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
